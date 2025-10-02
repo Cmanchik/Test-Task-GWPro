@@ -11,9 +11,13 @@ namespace Assets.Scripts.Crane.MovingMechanism
         [SerializeField]
         private LerpMovement m_winch;
 
+        [SerializeField]
+        private LerpMovement m_hook;
+
         public void ChangeMovementDirection(Vector3 direction)
         {
             m_winch.ChangeMovementDirection(direction.x);
+            m_hook.ChangeMovementDirection(direction.y);
             m_beam.ChangeMovementDirection(direction.z);
         }
     }

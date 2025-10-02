@@ -32,7 +32,7 @@ namespace Assets.Scripts.Crane.MovingMechanism
 
         public void ChangeMovementDirection(float direction)
         {
-            if (direction > 1)
+            if (direction > 0)
             {
                 m_currentTarget = m_positvePoint;
                 m_currentSpeed = m_positiveSpeed;
