@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.GazAn.GazAnalyzer
+namespace Assets.Scripts.GazAn.GazAnalyzer.Display
 {
     [Serializable]
     public class DisplaySettings

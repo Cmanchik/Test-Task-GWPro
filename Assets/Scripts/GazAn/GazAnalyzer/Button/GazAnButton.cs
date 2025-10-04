@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Assets.Scripts.GazAn.GazAnalyzer
+namespace Assets.Scripts.GazAn.GazAnalyzer.Button
 {
     public class GazAnButton : MonoBehaviour, IColliderEventPressEnterHandler, IColliderEventPressExitHandler
     {

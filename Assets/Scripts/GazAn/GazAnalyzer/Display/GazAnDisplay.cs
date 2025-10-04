@@ -1,7 +1,7 @@
 ﻿using TMPro;
 using UnityEngine;
 
-namespace Assets.Scripts.GazAn.GazAnalyzer
+namespace Assets.Scripts.GazAn.GazAnalyzer.Display
 {
     public class GazAnDisplay : MonoBehaviour
     {
