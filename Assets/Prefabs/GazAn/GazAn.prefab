@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6714817380223313179}
   - component: {fileID: 6466528243659682960}
   - component: {fileID: 7614769494421322225}
+  - component: {fileID: 1343167011560377274}
   m_Layer: 0
   m_Name: GazAn
   m_TagString: Untagged
@@ -115,6 +116,27 @@ MonoBehaviour:
   m_onDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &1343167011560377274
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5484147912848137864}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5718267, y: 1.0832281, z: 0.36048484}
+  m_Center: {x: -0.0077041388, y: 0.5475497, z: 0.015214443}
 --- !u!1 &6352114204967723260
 GameObject:
   m_ObjectHideFlags: 0
